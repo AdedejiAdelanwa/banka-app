@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up | Banka</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME HERE -->
+    <link rel="stylesheet" href="/UI/style.css">
+</head>
+<body>
+   <div class="form-wrapper">
+       <div class="margin-bottom-big">
+            <h4 class="heading-secondary">Welcome to Banka</h4>
+       </div>
+
+       <div class="margin-bottom-medium"><h3 class="heading-tertiary">Simply Sign Up For An Account</h3></div>
+       <form class="login-form" id="login-form" action="#" method="GET" autocomplete="off">
+           <input class="login-form__control" type="text" name="firstname" id="firstname" placeholder="First Name" required>
+           <input class="login-form__control" type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+           <input class="login-form__control" type="email" name="email" id="email" placeholder="Email" required>
+           <input class="login-form__control" type="number" name="phoneNo" id="phoneNo" placeholder="+2345678901234" required>
+           <input class="login-form__control" type="password" name="password" id="password" required>
+           <button id="submit-btn" class="login-form__control" type="submit">Next &rArr;</button>
+       </form>
+       <p id="sign-up">Already have an Account? <a href="./UI/">Log In</a></p>
+
+       <div>
+           <p id="policy" class="margin-top-medium">By clicking on Sign up, you agree to our <a href="#!">terms and conditions</a> and <a href="#!">company policy</a></p>
+       </div>
+   </div>
+</body>
+</html>
