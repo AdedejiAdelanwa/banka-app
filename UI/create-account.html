@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create account | Banka</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME HERE -->
+    <link rel="stylesheet" href="/UI/style.css">
+</head>
+<body>
+       <div class="margin-bottom-big text-center">
+            <h4 class="heading-secondary">Banka</h4>
+       </div>
+
+       <div class="margin-bottom-medium text-center">
+           <h3 class="heading-tertiary">Fastest way to create an account</h3>
+       </div>
+       
+            <form id="create-account" action="#" class="create-account">
+            <div class="name-title">
+                <label for="title">Title
+                    <select name="title" id="title">
+                        <option value="mr">Mr</option>
+                        <option value="mrs">Mrs</option>
+                        <option value="messr">Messr</option>
+                        <option value="miss">Miss</option>
+                    </select>
+                </label>
+
+                <span>John Doe</span>
+            </div>
+
+            <label for="phoneNo">Phone Number
+                <input type="tel" name="phoneNo" id="phoneNo" placeholder="+2348012345678" required>
+            </label>
+
+            <label for="dob">Date of birth
+                <input type="date" name="dob" id="dob" required>
+            </label>
+
+            <label for="nationality">Nationality
+                <select name="nationality" id="nationality">
+                    <option value="nigerian">Nigerian</option>
+                    <option value="ghanaian">Ghanaian</option>
+                    <option value="others">Others</option>
+                </select>
+            </label>
+
+            <label for="bvn">BVN <small>(simply dial *566*0# to retrieve BVN)</small>
+                <input type="number" name="bvn" id="bvn" placeholder="your 11 digits bvn here" required>
+            </label>
+
+            <label for="address">Home Address
+                <textarea name="address" id="address"></textarea>
+            </label>
+
+            <label for="occupation">Occupation
+                <input type="text" name="" id="">
+            </label>
+
+            <div class="gender">
+                <label for="male">Male
+                    <input type="radio" name="gender" id="male">
+                </label>
+
+                <label for="female">Female
+                    <input type="radio" name="gender" id="female">
+                </label>
+
+                <label for="others">Others
+                    <input type="radio" name="gender" id="others">
+                </label>
+            </div>
+
+            <label for="account-type">Account Type
+                <select name="acount-type" id="acount-type" required>
+                    <option value="savings">Savings</option>
+                    <option value="current">Current</option>
+                    <option value="corporate">Corporate</option>
+                </select>
+            </label>
+
+            <label for="photo">Upload passport
+                <input type="file" name="user-photo" id="user-photo" required>
+            </label>
+
+            <button type="submit" class="account-request">Request &rarr;</button>
+       </form>
+       
+      
+</body>
+</html>

@@ -27,6 +27,8 @@ body {
 
 .margin-bottom-big {margin-bottom: 4rem;}
 
+.text-center {text-align: center}
+
 /* USER LOGIN PAGE */
 
 .form-wrapper {
@@ -38,18 +40,18 @@ body {
     text-align: center;
     font-size: 1.5rem;
 }
-.form-wrapper .heading-secondary {
+.heading-secondary {
     font-size: 3rem;
     color: var(--grey-dark);
 }
 
-.form-wrapper .heading-tertiary {
+ .heading-tertiary {
     font-size: 2.5rem;
     color: var(--blue-steel);
     font-weight: 300;
 }
 
-.form-wrapper .login-form {
+ .login-form {
     width: 100%;
     margin: 2rem auto;
     display: flex;
@@ -102,11 +104,6 @@ a:visited {
     font-weight: 300;
 }
 
-@media only screen and (max-width: 600px) {
-    .form-wrapper {
-        width: 80%;
-    }
-  }
 
 
   /* USER SIGN UP PAGE */
@@ -114,4 +111,50 @@ a:visited {
   #policy {
       font-size: 1.2rem;
   }
+
+
+
+  /* CREATE ACCOUNT PAGE */
+
+  .create-account {
+      width: 40%;
+      background-color: #f7f7f7;
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      
+      
+      text-align: left;
+  } 
+
+  .create-account > * {
+      display: block;
+      padding: 1rem .5rem;
+  }
+
+  .account-request {
+      padding: 1.2rem 2.5rem;
+      margin-left: 5rem;
+      border-radius: 3px;
+  }
+  
+
+  /* RESPONSIVENESS */
+
+  @media only screen and (max-width: 900px) {
+    .create-account {
+        width: 80%;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .form-wrapper {
+        width: 80%;
+    }
+  }
+
 
