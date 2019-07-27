@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard | Banka</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+    <link rel="stylesheet" href="/UI/style.css">
+</head>
+<body>
+    <header class="dashboard">
+        <a href="#" class="brand-logo">
+            <img src="#" alt="Logo">
+            banka
+        </a>
+        <h1 class="heading-primary">Dashboard</h1>
+        <a  class="logout" href="user-login.html">logout</a>
+    </header>
+    <main class="main-wrapper">
+        <div class="margin-top-medium margin-bottom-medium">
+            <h3 class="heading-tertiary">Personal Info</h3>
+        </div>
+        
+        <form action="#" method="post" class="user-profile">
+            <div class="user-photo">
+                <img src="/img/nat-8.jpg" alt="user-photo">
+            </div>
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" name="fullName" id="fullName" placeholder="Jane Doe" readonly>
+            </div>
+
+            <div>
+                <label for="phoneNo">Phone Number:</label>
+                <input type="tel" name="phoneNo" id="phoneNo" placeholder="+23480123456789" readonly>
+            </div>
+
+            <div>
+                <label for="phoneNo">Email:</label>
+                <input type="email" name="ema" id="phoneNo" placeholder="janedoe@coolorg.co" readonly>
+            </div>
+
+            <div>
+                <label for="phoneNo">Address:</label>
+                <input name="add" id="address"  placeholder="33, Deji Pearse Avenue, Victoria Island" readonly>
+            </div>
+
+            <div>
+                <label for="phoneNo">DOB:</label>
+                <input type="text" name="dob" id="dob" placeholder="08/04/91" readonly>
+            </div>
+
+            <div>
+                <label for="phoneNo">Nationality:</label>
+                <input type="text" name="nationality" id="nationality" placeholder="Nigerian" readonly>
+            </div>
+
+            <div>
+                    <label for="phoneNo">Account Number:</label>
+                <input type="number" name="account-number" id="account-number" placeholder="0127447213" readonly>
+            </div>
+
+            <div>
+                <label for="phoneNo">Account type:</label>
+                <input type="text" name="account-type" id="account-type" placeholder="Savings" readonly>
+            </div>
+
+            <div class="edit-profile">
+                <button  class="edit-btn" type="submit">Edit profile <i class="far fa-edit"></i></button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

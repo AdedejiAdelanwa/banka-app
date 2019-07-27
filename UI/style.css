@@ -21,13 +21,13 @@ body {
 
 /* UTILITY CLASSES */
 
-.margin-top-medium {margin-top: 2.5rem;}
+.margin-top-medium {margin-top: 2.5rem !important;}
 
-.margin-bottom-medium {margin-bottom: 2.5rem;}
+.margin-bottom-medium {margin-bottom: 2.5rem !important;}
 
-.margin-bottom-big {margin-bottom: 4rem;}
+.margin-bottom-big {margin-bottom: 4rem !important;}
 
-.text-center {text-align: center}
+.text-center {text-align: center !important;}
 
 /* USER LOGIN PAGE */
 
@@ -141,6 +141,124 @@ a:visited {
       border-radius: 3px;
   }
   
+
+  /* DASHBOARD PAGE */
+
+.dashboard {
+    height: 10vh;
+    background-color: var(--blue-steel);
+    color: var(--white);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+.dashboard a,
+.dashboard a:link,
+.dashboard a:visited {
+    text-decoration: none;
+}
+
+.brand-logo img {
+    height: 40px;
+}
+
+.dashboard .heading-primary {
+    width: 80%;
+}
+
+.dashboard .logout {
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    background-color: var(--white);
+    color: var(--blue-steel);
+    border-radius: 100px;
+    transition: all .2s;
+}
+
+.logout:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 5px rgba(0,0,0,.4);
+}
+
+.main-wrapper {
+    font-size: 1.5rem;
+}
+
+.main-wrapper .heading-tertiary {
+    text-align: center;
+}
+.user-profile {
+    width: 40%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #f7f7f7;
+    border-radius: 3px;
+
+}
+
+
+
+.user-profile input {
+    padding: .5rem 1.5rem;
+    border: 1px solid rgba(0,0,0,.3);
+    outline: none;
+}
+
+.user-profile > * {
+
+    margin-bottom: 1.5rem;
+}
+
+.user-profile > *:not(:first-child) {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile label {
+    text-align: left;
+}
+
+
+.user-profile .user-photo {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-photo img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.edit-profile {
+    justify-content: center !important;
+}
+
+
+.edit-btn {
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+}
+
+
+  
+
+
+
 
   /* RESPONSIVENESS */
 
