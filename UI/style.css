@@ -204,6 +204,10 @@ a:visited {
 
 }
 
+.uneditable {
+    width: 60%;
+}
+
 
 
 .user-profile input {
