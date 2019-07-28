@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/UI/style.css">
 </head>
 <body>
-    <header class="dashboard">
+    <header class="dashboard-header">
         <a href="#" class="brand-logo">
             <img src="#" alt="Logo">
             banka
@@ -20,59 +20,151 @@
         <a  class="logout" href="user-login.html">logout</a>
     </header>
     <main class="main-wrapper">
-        <div class="margin-top-medium margin-bottom-medium">
-            <h3 class="heading-tertiary">Personal Info</h3>
-        </div>
+        <section class="dashboard-section">
+            <div class="margin-top-medium margin-bottom-medium">
+                <h3 class="heading-tertiary">Personal Info</h3>
+            </div>
         
-        <form action="#" method="post" class="user-profile">
-            <div class="user-photo">
-                <img src="/img/nat-8.jpg" alt="user-photo">
-            </div>
-            <div>
-                <label for="fullName">Full Name:</label>
-                <p class="uneditable">Jane Doe</p>
-            </div>
+            <form action="#" method="post" class="user-profile">
+                <div class="user-photo">
+                    <img src="/img/nat-8.jpg" alt="user-photo">
+                </div>
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <p class="uneditable">Jane Doe</p>
+                </div>
 
-            <div>
-                <label for="phoneNo">Phone Number:</label>
-                <input type="tel" name="phoneNo" id="phoneNo" placeholder="+23480123456789" readonly>
-            </div>
+                <div>
+                    <label for="phoneNo">Phone Number:</label>
+                    <input type="tel" name="phoneNo" id="phoneNo" placeholder="+23480123456789" readonly>
+                </div>
 
-            <div>
-                <label for="phoneNo">Email:</label>
-                <input type="email" name="ema" id="phoneNo" placeholder="janedoe@coolorg.co" readonly>
-            </div>
+                <div>
+                    <label for="phoneNo">Email:</label>
+                    <input type="email" name="ema" id="phoneNo" placeholder="janedoe@coolorg.co" readonly>
+                </div>
 
-            <div>
-                <label for="phoneNo">Address:</label>
-                <input name="add" id="address"  placeholder="33, Deji Pearse Avenue, Victoria Island" readonly>
-            </div>
+                <div>
+                    <label for="phoneNo">Address:</label>
+                    <input name="add" id="address"  placeholder="33, Deji Pearse Avenue, Victoria Island" readonly>
+                </div>
 
-            <div>
-                <label for="phoneNo">DOB:</label>
-                <p class="uneditable">04/08/92</p>
-            </div>
+                <div>
+                    <label for="phoneNo">DOB:</label>
+                    <p class="uneditable">04/08/92</p>
+                </div>
 
-            <div>
-                <label for="phoneNo">Nationality:</label>
-                <p class="uneditable">Nigerian</p>
-            </div>
+                <div>
+                    <label for="phoneNo">Nationality:</label>
+                    <p class="uneditable">Nigerian</p>
+                </div>
 
-            <div>
-                <label for="phoneNo">Account Number:</label>
-                <p class="uneditable">0127447123</p>
-            </div>
+                <div>
+                    <label for="phoneNo">Account Number:</label>
+                    <p class="uneditable">0127447123</p>
+                </div>
 
-            <div>
-                <label for="phoneNo">Account type:</label>
-                <p class="uneditable">Savings</p>
-            </div>
+                <div>
+                    <label for="phoneNo">Account type:</label>
+                    <p class="uneditable">Savings</p>
+                </div>
 
-            <div class="edit-profile">
-                <button  class="edit-btn" type="submit">Edit profile <i class="far fa-edit"></i></button>
-            </div>
+                <div class="edit-profile">
+                    <button  class="edit-btn" type="submit">Edit profile <i class="far fa-edit"></i></button>
+                </div>
 
-        </form>
+            </form>
+        </section>
+
+        <section class="transaction-history">
+            <div class="margin-top-medium margin-bottom-medium">
+                <h3 class="heading-tertiary">Transaction History</h3>
+            </div>
+            
+            <form action="#" method="get" class="margin-bottom-medium">
+                <label for="filter">Search History:
+                    <input type="search" name="filter" id="filter">
+                </label>
+            </form>
+
+            <table class="history-table margin-top-medium">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Amount(NGN)</th>
+                        <th>By Who</th>
+                        <th>Branch</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01/03/2018</td>
+                        <td>Deposit</td>
+                        <td>5,000</td>
+                        <td>Self</td>
+                        <td>Ikoyi</td>
+                    </tr>
+                    <tr>
+                        <td>04/05/2018</td>
+                        <td>Deposit</td>
+                        <td>40,000</td>
+                        <td>Selena Gomez</td>
+                        <td>Ikeja</td>
+                    </tr>
+                    <tr>
+                        <td>01/03/2018</td>
+                        <td>Deposit</td>
+                        <td>5,000</td>
+                        <td>Self</td>
+                        <td>Ikoyi</td>
+                    </tr>
+                    <tr>
+                        <td>04/05/2018</td>
+                        <td>Deposit</td>
+                        <td>40,000</td>
+                        <td>Selena Gomez</td>
+                        <td>Ikeja</td>
+                    </tr>
+                    <tr>
+                        <td>04/05/2018</td>
+                        <td>Deposit</td>
+                        <td>40,000</td>
+                        <td>Selena Gomez</td>
+                        <td>Ikeja</td>
+                    </tr>
+                    <tr>
+                        <td>04/05/2018</td>
+                        <td>Deposit</td>
+                        <td>40,000</td>
+                        <td>Selena Gomez</td>
+                        <td>Ikeja</td>
+                    </tr>
+                    <tr>
+                        <td>04/05/2018</td>
+                        <td>Deposit</td>
+                        <td>40,000</td>
+                        <td>Selena Gomez</td>
+                        <td>Ikeja</td>
+                    </tr>
+                    <tr>
+                        <td>01/03/2018</td>
+                        <td>Deposit</td>
+                        <td>5,000</td>
+                        <td>Self</td>
+                        <td>Ikoyi</td>
+                    </tr>
+                    <tr>
+                        <td>01/03/2018</td>
+                        <td>Deposit</td>
+                        <td>5,000</td>
+                        <td>Self</td>
+                        <td>Ikoyi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
     </main>
 </body>
 </html>
