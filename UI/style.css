@@ -277,6 +277,12 @@ a.brand-logo {
     align-items: center;
 }
 
+
+.account-balance {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
 .transaction-history form {
     width: 90%;
     text-align: left;
