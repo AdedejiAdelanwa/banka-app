@@ -328,6 +328,35 @@ td .delete {
 }
 
 
+/* Specific User*/
+
+.one-user-view {
+    display: flex;
+    justify-content: center;
+}
+
+.customer-info {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+
+}
+
+.customer-info > * {
+    margin-bottom: 4rem;
+}
+.user-pic img {
+    display: block;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+} 
+
+
+
+
  /* RESPONSIVENESS */
 
  @media only screen and (max-width: 1200px) {
