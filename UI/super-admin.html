@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super-Admin Dashboard | Banka</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" />
+    <link rel="stylesheet" href="/UI/style.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <a href="#" class="brand-logo">
+            <img src="/img/b1.png" alt="Logo">
+            banka
+        </a>
+        <h1 class="heading-primary">Super-Admin Dashboard</h1>
+        <a  class="logout" href="user-login.html">logout</a>
+    </header>
+    <main class="main-wrapper">
+        <section class="create-staff">
+            <div class="margin-top-medium margin-bottom-medium">
+                <h3 class="heading-tertiary">Create Account</h3>
+            </div>
+            
+           <form class="create-user" action="#" method="post">
+
+              <div class="form-group">
+                <label for="fullname">Full Name: </label>
+                <input type="text" name="fullname" id="fullname" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="account-id">Account ID:</label>
+                <select name="account-id" id="account-id">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="account-type">Account type:</label>
+                <select name="account-type" id="account-type">
+                    <option value="savings">Admin</option>
+                    <option value="Current">Staff(Cashier)</option>
+                </select>
+            </div>
+             
+            
+            <div class="submit">
+                <button  class="submit-btn" type="submit">Create Account</button>
+            </div>
+                
+              
+          </form>
+
+            
+        </section>
+    </main>
+
+</body>
+</html>

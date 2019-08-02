@@ -375,17 +375,17 @@ td .delete {
 }
 
 
-.cashier-activity  form > *:not(:last-child) {
+  form > *:not(:last-child) {
     margin-bottom: 2rem;
 }
 
-.cashier-activity  .form-group:not(:last-child) {
+.form-group:not(:last-child) {
     display: flex;
     justify-content: space-around;
 
 }
 
-.cashier-activity .form-group > * {
+.form-group > * {
     width: 45%;
     text-align: right;
 }
@@ -396,6 +396,23 @@ td .delete {
     border-radius: 200px;
     margin: 0 auto;
 } 
+
+
+/*
+
+    SUPER-ADMIN USER
+*/
+.create-staff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.create-user {
+    width: 30%;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+    padding: 3em 1rem;
+}
 
 
 
