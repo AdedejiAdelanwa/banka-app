@@ -356,6 +356,48 @@ td .delete {
 } 
 
 
+/*
+    Cashier Dashboard
+*/
+
+.cashier-activity {
+    display: flex;
+    justify-content: center; 
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.cashier-activity form {
+    padding: 3em 2rem;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    box-shadow: 0 2px 5px rgba(0,0,0,.3);
+}
+
+
+.cashier-activity  form > *:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.cashier-activity  .form-group:not(:last-child) {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.cashier-activity .form-group > * {
+    width: 45%;
+    text-align: right;
+}
+
+.submit .submit-btn {
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 200px;
+    margin: 0 auto;
+} 
+
+
 
 
  /* RESPONSIVENESS */
