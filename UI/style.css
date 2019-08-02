@@ -414,6 +414,17 @@ td .delete {
     padding: 3em 1rem;
 }
 
+.all-accounts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-accounts table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
 
 
 
